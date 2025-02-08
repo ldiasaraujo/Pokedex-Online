@@ -33,14 +33,54 @@ body {
     min-width: 200px;
 }
 
+#elements {
+    justify-items: center;
+}
+
 .capturas {
+    margin-top: 10%;
     display:inline-block;
     align-self: center;
-    margin-left: 40%;
-    margin-top: 20px;
     background-color: #320A90;
     padding: 30px;
     border-radius: 40px;
     font-size: 30px;
+}
+
+#show-caughts{
+    text-transform: none;
+    text-decoration: none;
     color: white;
+    align-self: center;
+    justify-content: center;
+}
+
+.formulary {
+    margin-top: 50px;
+    justify-content: column;
+    justify-items: center;
+    color: #F0FFFF;
+    display: block;
+}
+
+#sbmt-btn {
+    margin-top: 50px;
+    display: block;
+    padding: 20px 80px;
+    background-color: #B22222;
+    border-radius: 30px;
+    border: none;
+    font-family: HappyTown;
+    font-size: 25px;
+    color: #F0FFFF;
+    border: 1px solid white;
+}
+
+#sbmt-btn:hover {
+    background-color: white;
+    color: red;
+}
+
+.text-form {
+    padding: 10px 180px;
 }
